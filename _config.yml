@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "ThoPhan"
 title_right   : "Space" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
+description   : "Keep our work simple!"
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url           : https://thophan92.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
