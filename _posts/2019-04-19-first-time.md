@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "First post ever"
-comments: true
 description: "just for testing"
 keywords: "test, post"
 ---
