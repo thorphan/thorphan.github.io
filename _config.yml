@@ -35,6 +35,8 @@ plugins:
   - bourbon
   - jekyll-paginate
 
+disqus: https-thophan92-github-io
+
 # navbar pages
 navbar:
   - slug : about
