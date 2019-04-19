@@ -11,6 +11,6 @@ layout: default
     {{ content }}
     {% include post-share.html %}
   </div>
-  {% include disqus.html %}
+  {% if page.comments %} {% include disqus.html %} {% endif %}
 </article>
 
