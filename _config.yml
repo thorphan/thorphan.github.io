@@ -44,5 +44,11 @@ navbar:
   - slug : blog
     title: Blog
 
+# plug in for multi-language
+gems:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "vi", "jp"]
+
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
 
