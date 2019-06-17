@@ -4,6 +4,7 @@ title: "First post ever"
 comments: true
 description: "just for testing"
 keywords: "test, post"
+showtags: true
 tags: test blog github-page
 ---
 
