@@ -2,6 +2,7 @@
 layout: post
 title: "Which contents I am going to write?"
 comments: true
+showtags: true
 tags: test blog github-page
 ---
 
