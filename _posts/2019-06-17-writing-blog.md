@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Which contents I am going to write?"
+comments: true
 ---
 
 # Welcome
