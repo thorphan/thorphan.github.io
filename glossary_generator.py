@@ -10,7 +10,7 @@ header = [
 				'comments: true',
 				'description: "glossary for nlp"',
 				'showtags: true',
-				'tags: nlp grolassary',
+				'tags: nlp glossary',
 				'---'
 		]
 space = "   "
@@ -23,8 +23,7 @@ with open(output_path, 'w') as f:
 		f.write(ele);
 		f.write(next_line)
 	
-	
-	f.write("### This is post for NLP grolassary")
+	f.write("#### NLP glossary")
 	f.write(next_line)
 	f.write(next_line)
 	f.write(' | '.join(excel_header))
@@ -32,14 +31,5 @@ with open(output_path, 'w') as f:
 	f.write(table_line)
 	f.write(next_line)
 	for idx, row in df.iterrows():
-		# f.write('|  ')
-		# f.write(row[excel_header[0]])
-		# f.write(' | ')
-		# f.write(row[excel_header[1]])
-		# f.write('  |  ')
-		# f.write(row[excel_header[2]])
-		# f.write('  |')
 		f.write(' | '.join(row))
 		f.write(next_line)
-
-# print(df)
