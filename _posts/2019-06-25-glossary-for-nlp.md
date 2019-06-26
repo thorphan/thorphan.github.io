@@ -12,7 +12,7 @@ Name | Description | Example
 --- | --- | ---:
 Bag of Words | A representation model used to simplify the contents of a seletion of text. It omits grammar and word order, keeping the number of occurrences of words | {"I": 2, "love": 1, ...}
 Corpus | A collection of texts in a machine-readable format |  
-Dependency parsing | assigning syntactic dependency labels, describing the relations between individual tokens | subject or object
+Dependency parsing | assigning syntactic dependency labels, describing the relations between individual tokens | [![](http://4.bp.blogspot.com/-1XUMTRim1KM/VeICZMBXA8I/AAAAAAAAEVE/M8e2W56FR04/s1600/dependency.png)](http://4.bp.blogspot.com/-1XUMTRim1KM/VeICZMBXA8I/AAAAAAAAEVE/M8e2W56FR04/s1600/dependency.png)
 Information Retrieval | Accessing and retrieving the most appropriate information from text based on a particular query | Google search
 Lemmatization | A process of changing words to theirs based forms | am, are, is --> be
 Lexicon | A list of stems and afafixes, together with basic information about them |  
