@@ -33,10 +33,4 @@ Give two approaches:
 - BoC features outperform models with BoW, dependency parse, or sentence embedding features
 - SVM outperforms complex models such as a feed-forward ANN in our low resource scenario, with less tendency to overfitting
 
-### Limitations or/and Extensions
-
-### My opinion
-- The quality of the ideas
-- Its potential impact
-
 ### [Original paper](https://arxiv.org/abs/1904.10743)
