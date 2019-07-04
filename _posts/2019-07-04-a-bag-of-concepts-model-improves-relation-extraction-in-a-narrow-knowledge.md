@@ -11,7 +11,7 @@ tags: paper-reading nlp-biomedical nlp relation-extraction
 ---
 
 ### Contribution
-> Proposed to ways to perform `relation extraction` for a `narrow knowledge domain` with only small avaiable data set
+> Proposed two ways to perform `relation extraction` for a `narrow knowledge domain` with only small avaiable data set
 
 ### A deeper look
 #### Problem
