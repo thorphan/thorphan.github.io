@@ -50,6 +50,8 @@ layout: default
 			<a class="next" style="text-align: right;" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
 		{% endif %}
 	</div>
-  {% if page.comments %} {% include disqus.html %} {% endif %}
+  	{% if page.comments %} {% include disqus.html %} {% endif %}
+	<script type="text/javascript" async
+	  	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
 </article>
-
