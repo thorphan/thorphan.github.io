@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "glossary"
+title: "glossary for nlp"
 comments: true
 description: "glossary for nlp"
 showtags: true

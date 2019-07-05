@@ -22,4 +22,4 @@ tags: paper-reading whatever
 - The quality of the ideas
 - Its potential impact
 
-### [Link to original paper]()
+### [Original paper]()
