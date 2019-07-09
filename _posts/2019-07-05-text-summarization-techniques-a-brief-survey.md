@@ -30,9 +30,9 @@ tags: paper-reading nlp text-summarization
 	- topic representation
 	- indicator representation 
 
-`Sentence Score`:
+`Sentence Score`: after generating the intermediate representation, we assign to each sentence the *important score* which is computed by aggregating evidence from different indicator found by the machine learning approach.
 
-`Summary sentences selection`:
+`Summary sentences selection`: select top *k most important* sentences to produce a summary.
 
 ### Limitations or/and Extensions
 
