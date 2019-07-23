@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get To The Point: Summarization with Pointer-Generator Networks"
+title: "Get To The Point: Summarization with Pointer-Generator Networks (incomplete)"
 comments: true
 description: "Neural sequence-to-sequence models have
 provided a viable new approach for abstractive text summarization (meaning
