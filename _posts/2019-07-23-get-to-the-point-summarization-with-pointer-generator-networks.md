@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get To The Point: Summarization with Pointer-Generator Networks (incomplete)"
+title: "Get To The Point: Summarization with Pointer-Generator Networks"
 comments: true
 description: "Neural sequence-to-sequence models have
 provided a viable new approach for abstractive text summarization (meaning
@@ -33,16 +33,14 @@ tags: paper-reading nlp text-summarization abstractive-text-summarization
 > 		- repeating themself
 
 ### A deeper look
-- example assumptions made
-- arguments presesnted
-- data analyzed
-- conclusions drawn
+- Introduce the Pointer-Generator Networks to tackle the incorrect factual details when reproducing words. It is acutally a hybrid network that is able to copy words from source while keeping the ability to generate words.
+- Using `coverage` to eliminate repetition in decoder period. It is the attention distribution to keep track of what's been covered so far, and penalize the network for attending to same parts again.
 
 ### Limitations or/and Extensions
-
-### My opinion
-- The quality of the ideas
-- Its potential impact
+- Sometimes fails to focus on the `core of the source text`
+- `Incorrectly composes fragments` of the source text
+- Sometimes `fail to make sense a whole`
+- `Need higher-level abstraction` such as more powerful, compressive paraphrasing
 
 ### [Original paper](https://arxiv.org/abs/1704.04368) and [blog post](http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html)
 
