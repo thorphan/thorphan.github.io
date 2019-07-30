@@ -18,7 +18,7 @@ tags: paper-reading whatever
 
 ### Limitations or/and Extensions
 
-### My opinion
+### Comments
 - The quality of the ideas
 - Its potential impact
 

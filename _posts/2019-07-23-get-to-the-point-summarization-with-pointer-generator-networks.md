@@ -33,7 +33,7 @@ tags: paper-reading nlp text-summarization abstractive-text-summarization
 > 		- repeating themself
 
 ### A deeper look
-- Introduce the Pointer-Generator Networks to tackle the incorrect factual details when reproducing words. It is acutally a hybrid network that is able to copy words from source while keeping the ability to generate words.
+- Introduce the `Pointer-Generator Networks` to tackle the incorrect factual details when reproducing words. It is acutally a hybrid network that is able to copy words from source while keeping the ability to generate words.
 - Using `coverage` to eliminate repetition in decoder period. It is the attention distribution to keep track of what's been covered so far, and penalize the network for attending to same parts again.
 
 ### Limitations or/and Extensions
