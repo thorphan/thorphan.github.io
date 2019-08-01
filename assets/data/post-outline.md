@@ -16,6 +16,13 @@ tags: paper-reading whatever
 - data analyzed
 - conclusions drawn
 
+#### Some measurements
+- Problems
+- How to solve problems
+- Corpus/Gold standard
+- Performance measured/Performance achieved
+
+
 ### Limitations or/and Extensions
 
 ### Comments
