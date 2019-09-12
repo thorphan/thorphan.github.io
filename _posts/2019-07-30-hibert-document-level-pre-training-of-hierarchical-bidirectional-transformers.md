@@ -15,7 +15,7 @@ on a version of New York Times dataset. We
 also achieve the state-of-the-art performance
 on these two datasets."
 showtags: true
-tags: paper-reading nlp document-summarization acl extractive-summarizations
+tags: paper-reading nlp document-summarization acl extractive-summarization
 ---
 
 ### Contribution
