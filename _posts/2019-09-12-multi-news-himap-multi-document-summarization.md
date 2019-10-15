@@ -41,7 +41,6 @@ General picture
 ### Comments
 - The quality of the ideas
   - They represent the whole summary as a single sentence, but actually it is not. We need to find a better way to display summary representation
-- They don't public source code
 - Its potential impact
   - Their datasets could leverage the investigation of researchers about the multi-document summarization
 
