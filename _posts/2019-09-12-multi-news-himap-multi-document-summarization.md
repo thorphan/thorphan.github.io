@@ -35,13 +35,12 @@ General picture
 - Put all sentences $$s_i$$ with all words $$w_l$$ to *Bi-LSTM (Pointer-generator encoder)* and get $$h_l^w$$ (the word level hidden state of the _l-th_ word). Now we have the word-level sentence embeddings of the document $$h_D^w = [h_{s_1}^w, h_{s_2}^w, .., h_{s_n}^w]$$
 - Put the word-level embeddings to a *sentence level LSTM netowrk* to get $$h_D^s = [h_{1}^s, h_{2}^s, .., h_{n}^s]$$, we also put the decoded summary as a single sentence to get the output $$s_sum$$
 2. MMR-Attention and MMR-attention Pointer-Generation
-They compute MMR scores to rank all sentences from senetence representation $$h_D^s$$ with the query document $$s_sum$$, we then update the word-level attention weights for pointer-generation model using MMR scores
+- They compute MMR scores to rank all sentences from senetence representation $$h_D^s$$ with the query document $$s_sum$$, we then update the word-level attention weights for pointer-generation model using MMR scores
 
 
 ### Comments
 - The quality of the ideas
   - They represent the whole summary as a single sentence, but actually it is not. We need to find a better way to display summary representation
-- They don't public source code
 - Its potential impact
   - Their datasets could leverage the investigation of researchers about the multi-document summarization
 
